@@ -9,7 +9,8 @@
             font-family: Arial, sans-serif;
             text-align: center;
             padding: 20px;
-            background-color: #f8f9fa;
+            background: url('https://i.pinimg.com/originals/7e/0a/8a/7e0a8a1cba4e1b68e4a0d96b8b3f0c9f.jpg') no-repeat center center fixed;
+            background-size: cover;
         }
         nav {
             background: #333;
@@ -23,6 +24,10 @@
         }
         .container {
             margin-top: 20px;
+            background: rgba(255, 255, 255, 0.8);
+            padding: 20px;
+            border-radius: 10px;
+            display: inline-block;
         }
         .image-container img {
             width: 300px;
@@ -38,8 +43,9 @@
 </head>
 <body>
     <nav>
-        <a href="#home">Home</a>
-        <a href="#gifts">Gift Ideas</a>
+        <a href="index.html">Home</a>
+        <a href="gift-ideas.html">Gift Ideas</a>
+        <a href="ethereal-scenery.html">Ethereal Scenery</a>
         <a href="#contact">Contact</a>
     </nav>
     
@@ -51,15 +57,24 @@
     <div class="container" id="gifts">
         <h2>Popular Gift Ideas</h2>
         <div class="image-container">
-            <img src="https://source.unsplash.com/300x200/?flower" alt="Flower Gift">
-            <img src="https://source.unsplash.com/300x200/?scenery" alt="Ethereal Scenery">
+            <img src="https://source.unsplash.com/300x200/?gift" alt="Gift Idea">
+            <img src="https://source.unsplash.com/300x200/?present" alt="Present">
+        </div>
+    </div>
+
+    <div class="container" id="scenery">
+        <h2>Ethereal Scenery</h2>
+        <div class="image-container">
+            <img src="https://source.unsplash.com/300x200/?scenery,nature" alt="Ethereal Scenery">
+            <img src="https://source.unsplash.com/300x200/?fantasy,landscape" alt="Fantasy Landscape">
         </div>
     </div>
 
     <div class="contact" id="contact">
         <h2>Contact Us</h2>
-        <p>Email: support@giftideas.com</p>
-        <p>Phone: +123 456 7890</p>
+        <p>Email: <a href="mailto:sorraah32@gmail.com">sorraah32@gmail.com</a></p>
+        <p>Phone: +6011-12345678</p>
     </div>
 </body>
 </html>
+
